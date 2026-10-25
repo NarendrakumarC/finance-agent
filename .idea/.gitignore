@@ -1,0 +1,80 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+# ==============================================================================
+# 1. JETBRAINS / PYCHARM / INTELLIJ (.idea folder & .iml files)
+# ==============================================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==============================================================================
+# 2. VS CODE & CURSOR
+# ==============================================================================
+.vscode/
+.cursor/
+
+# ==============================================================================
+# 3. ENVIRONMENT & SECRETS (Never commit API keys!)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# 4. PYTHON VIRTUAL ENVIRONMENTS
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================================================================
+# 5. PYTHON BYTECODE, CACHES & PACKAGING
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================================================================
+# 6. YFINANCE, HUGGING FACE & AGENT CACHES
+# ==============================================================================
+*.sqlite
+*.sqlite3
+*.db
+.cache/
+yfinance.cache/
+data_cache/
+hf_cache/
+models/
+*.bin
+*.safetensors
+
+# ==============================================================================
+# 7. LOGS, OUTPUTS & OS FILES
+# ==============================================================================
+*.log
+logs/
+reports/
+outputs/
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,22 @@
+# Core Agent Framework (provides Agent, Runner, function_tool, .as_tool())
+openai-agents>=0.0.7
+openai>=1.68.0
+litellm>=1.63.0
+
+# Hugging Face Ecosystem (Inference API, Hub, Local/Embeddings)
+huggingface-hub>=0.29.0
+transformers>=4.49.0
+
+# Financial Data & Calculations (powers financial_tools, valuation_tools, news_tools)
+yfinance>=0.2.54
+pandas>=2.2.0
+numpy>=1.26.0
+requests>=2.32.0
+
+# Optional Search / News Fallbacks
+duckduckgo-search>=7.5.0
+tavily-python>=0.5.1
+
+# Environment & Schema Validation
+python-dotenv>=1.0.1
+pydantic>=2.10.0
