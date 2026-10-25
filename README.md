@@ -1,7 +1,7 @@
 # finance-agent
 Finance analysis
 create finance agent
-
+whatsapp collab link to join : https://chat.whatsapp.com/JTIV3T4MQlsGyqukz0u5Wh
 Setup Commands - 
 ```
 python -m venv .venv                                                                                                                                              
